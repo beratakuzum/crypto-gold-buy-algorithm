@@ -1,7 +1,7 @@
 /*
   A class that keeps buying orders and selling orders in two different queues. Also, it performs buying and selling
   operations.
-  The keys of buyingOrdersQueue and sellingOrdersQueue objects are prices ordered for buying and selling. The values
+  The keys of buyingOrdersQueue and sellingOrdersQueue objects are prices in bitcoin for buying and selling. The values
   are arrays that keep buying and selling  queues. For example, the gold selling orders of 2 btcs and 3 btcs can be modelled as:
   sellingOrdersQueue = {
      '2': [ { customerId: 2, amount: 15 },  { customerId: 1, amount: 12 }],
